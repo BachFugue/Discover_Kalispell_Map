@@ -1,7 +1,7 @@
 # Discover_Kalispell_Map
 ------------------------
 
-DK Map is a WordPress plugin for an interactive svg map that shows cool things to do in the Kalispell MT area.
+DK Map is a WordPress plugin for an interactive svg map that shows cool things to do in the Kalispell MT area. For the live demo, visit http://discoverkalispell.com
 
 ## Libraries
 The plugin is built on the following libraries.
