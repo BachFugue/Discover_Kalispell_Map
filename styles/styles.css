@@ -1,0 +1,100 @@
+#svgout{
+	position: relative;
+	overflow: visible;
+}
+
+#gnp,
+#airport,
+#bm,
+#golf,
+#btail,
+#cyclist,
+#fl,
+#hiker,
+#car,
+#indian,
+#downtown,
+#hotel,
+#restaurant,
+#info,
+#downtown1 {	
+	cursor: pointer;
+	position: absolute;
+}
+
+svg:focus{
+	outline: none;
+}
+
+
+/* Post Tooltips */
+.beacon-theme.tippy-tooltip,
+.beacon-theme .tippy-content,
+.beacon-theme .tippy-content a,
+.beacon-theme .tippy-content h1,
+.beacon-theme .tippy-content p,
+.tippy-tooltip[data-size=large]{
+	padding: 0px;
+	margin: 0px;
+}
+
+.beacon-theme.tippy-tooltip{
+	background: white;
+	height: auto;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	width: 300px;
+	overflow: hidden;
+}
+
+.beacon-theme .tippy-content h1{
+	color: white;
+	background: #B93424;
+	margin-block-start: 0px;
+}
+
+.beacon-theme .tippy-content p{
+	color: black;
+	text-align: left;
+	padding: 10px;
+}
+
+.beacon-theme .tippy-content a.dk_map_link{
+	display: block;
+	background: #B93424;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+@media handheld, only screen and (max-width: 1140px){
+	.mk-header-toolbar .mk-header-social svg[data-name="mk-icon-search"]{
+		fill: white !important;
+	}
+}
+
+.dk_map_content {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    border-left: 4px solid #AAAAAA;
+    border-right: solid 4px #AAAAAA;
+}
+.dk_map_image {
+	height: 145px;
+    width: 100%;
+    margin: auto;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.dk_map_title {
+	font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.dk_map_link {
+	font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
